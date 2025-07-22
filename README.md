@@ -7,17 +7,19 @@ npm install
 npm run dev
 ```
 
-## To start the Backend (Express)
+## To use the AI feature 
+### Create an .env file in the backend folder with the following content
+```
+GEMINI_API_KEY=<your_API_key>
+```
+
+## To start the Backend (Express) (In a new terminal)
 ```bash
 cd backend
 npm install
 node index.js
 ```
 
-## To use the AI feature 
-### Create an .env file and put ur API key as given below
-```bash
-GEMINI_API_KEY=<your_API_key>
-```
+Open [http://localhost:3000] in your browser
 
 Hope you like my simple project :)
